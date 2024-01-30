@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Takealot Sales Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+			font-size: 20px;
+        }
+
+        .header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header img {
+            max-height: 50px;
+        }
+
+        .welcome-text {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        .sales-table {
+            margin: 20px;
+            border-collapse: collapse;
+            float: left;
+			overflow: auto;
+        }
+
+        .sales-table th,
+        .sales-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .sales-table th {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        .item-table {
+            margin: 30px;
+            border-collapse: collapse;
+            float: left;
+        }
+
+        .item-table th,
+        .item-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .item-table th {
+            background-color: #3498db;
+            color: #fff;
+        }
+		
+		.top-month-table {
+            margin: 30px;
+            border-collapse: collapse;
+            float: left;
+        }
+
+        .top-month-table th,
+        .top-month-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .top-month-table th {
+            background-color: #3498db;
+            color: #fff;
+        }
+		
+		.months-table {
+            margin: 20px;
+            border-collapse: collapse;
+            float: left;
+        }
+
+        .months-table th,
+        .months-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .months-table th {
+            background-color: #3498db;
+            color: #fff;
+        }
+		
+		.customer-experience {
+            margin: 20px;
+            border-collapse: collapse;
+            float: left;
+        }
+
+        .customer-experience th,
+        .customer-experience td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .customer-experience  th {
+            background-color: #3498db;
+            color: #fff;
+        }
+		
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://i.ibb.co/QHf00SD/2560px-Takealot-logo-svg.png" alt="Left Image">
+        <div class="welcome-text">Welcome To The Takealot Sales Dashboard!</div>
+        <img src="https://i.ibb.co/QHf00SD/2560px-Takealot-logo-svg.png" alt="Right Image">
+    </div>
+<div class="sales-table">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Daily Sales</th>
+                </tr>
+                <tr>
+                    <th><strong>Date</strong></th>
+                    <th><strong>Gross Sales (Ex Vat)</th>
+                    
+                </tr>
+            </thead>
+            <tbody style="font-weight: bold;">
+                <!-- Add your table data rows here -->
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				 <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+	
+	<div class="item-table">
+		<table>
+			<thead>
+				<tr>
+					<th>Last 3 Sales Items</th>
+				</tr>
+			</thead>
+			<tbody style="font-weight: bold;">
+				<!-- Add your table data rows for last 3 sales items here -->
+					
+				<!-- Add more rows as needed -->
+			</tbody>
+		</table>
+	</div>
+
+	
+	    <div class="top-month-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Top 5 Sales Items (Per Month)</th>
+                </tr>
+            </thead>
+            <tbody style="font-weight: bold;">
+                <!-- Add your table data rows for last 3 sales items here -->
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+	
+	 <div class="customer-experience">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Customer Experience</th>
+                </tr>
+				    <th>Total</th>
+                    <th>Completion</th>
+					<th>Called</th>
+					<th>Whatsapp</th>
+					<th>Email</th>
+            </thead>
+            <tbody style="font-weight: bold;">
+                <!-- Add your table data rows for last 3 sales items here -->
+                <tr>
+                    <td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+                </tr>
+               
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+	
+	
+	   <div class="months-table">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Monthly Sales</th>
+                </tr>
+                <tr>
+                    <th>Month</th>
+                    <th>Gross Sales (Ex Vat)</th>
+                    
+					<th>Budget (Ex Vat)</th>
+					<th>Budget Deficit(Ex Vat)</th>
+                </tr>
+            </thead>
+            <tbody style="font-weight: bold;">
+                <!-- Add your table data rows here -->
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				 <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+    <!-- Add other table structures here (last 3 sales items, top sales items, monthly sales) -->
+
+    <script>
+        const API_KEY = 'AIzaSyCvevlaa4L98o4x8RwL4TXzj0e6aUF48O0';
+        const SPREADSHEET_ID = '1GulE2Aimkq6tHOdfnCVd1k4Pawmin5pEV3jYWK-mz6I';
+        const SHEET_TITLE = 'Consolidated Daily Sales'; // Replace with the title of desired sheet
+        const DATA_RANGE = 'A3:C1000'; // Specify the custom range (e.g., A1:C12)
+
+        async function fetchData() {
+            try {
+                const sheetIdResponse = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}?key=${API_KEY}`);
+                const sheetIdData = await sheetIdResponse.json();
+                const sheet = sheetIdData.sheets.find(s => s.properties.title === SHEET_TITLE);
+
+                if (!sheet) {
+                    console.error(`Sheet with title "${SHEET_TITLE}" not found.`);
+                    return;
+                }
+
+                const sheetId = sheet.properties.sheetId;
+                const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_TITLE}!${DATA_RANGE}?key=${API_KEY}`);
+                const data = await response.json();
+
+                const tableBody = document.querySelector('.sales-table tbody');
+                tableBody.innerHTML = ''; // Clear existing data
+
+                data.values.forEach((row) => {
+                    const [date, grossSales, netSales] = row;
+                    const rowHTML = `
+                        <tr>
+                            <td>${date}</td>
+                            <td>${grossSales}</td>
+                            
+                        </tr>
+                    `;
+                    tableBody.innerHTML += rowHTML;
+                });
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        }
+
+        window.addEventListener('load', fetchData);
+    </script>
+	
+	<script>
+		// This script will be for the last 3 sales items
+		const API_KEY2 = 'AIzaSyCvevlaa4L98o4x8RwL4TXzj0e6aUF48O0'; // Replace with Google Sheets API Key
+		const SPREADSHEET_ID2 = '1GulE2Aimkq6tHOdfnCVd1k4Pawmin5pEV3jYWK-mz6I'; // Replace with Google Sheets Spreadsheet ID
+		const SHEET_TITLE2 = 'Sales Per Day'; // Replace with the title of desired sheet
+		const DATA_RANGE2 = 'H2:H5'; // Specify the custom range (e.g., H2:H5)
+
+		async function fetchData() {
+			try {
+				const sheetIdResponse = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID2}?key=${API_KEY2}`);
+				const sheetIdData = await sheetIdResponse.json();
+				const sheet = sheetIdData.sheets.find(s => s.properties.title === SHEET_TITLE2);
+
+				if (!sheet) {
+					console.error(`Sheet with title "${SHEET_TITLE2}" not found.`);
+					return;
+				}
+
+				const sheetId = sheet.properties.sheetId;
+				const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID2}/values/${SHEET_TITLE2}!${DATA_RANGE2}?key=${API_KEY2}`);
+				const data = await response.json();
+
+				const tableBody = document.querySelector('.item-table tbody');
+				tableBody.innerHTML = ''; // Clear existing data
+
+				// Only loop through the first 3 rows (lines)
+				for (let i = 0; i < 3 && i < data.values.length; i++) {
+					const [items] = data.values[i];
+					const rowHTML = `
+						<tr>
+							<td>${items}</td>
+						</tr>
+					`;
+					tableBody.innerHTML += rowHTML;
+				}
+			} catch (error) {
+				console.error('Error fetching data:', error);
+			}
+		}
+
+		window.addEventListener('load', fetchData);
+	</script>
+
+	<script>
+		// Define your constants
+		const API_KEY3 = 'AIzaSyCvevlaa4L98o4x8RwL4TXzj0e6aUF48O0'; // Replace with Google Sheets API key
+		const SPREADSHEET_ID3 = '1GulE2Aimkq6tHOdfnCVd1k4Pawmin5pEV3jYWK-mz6I'; // Replace with Google Sheets spreadsheet ID
+		const SHEET_TITLE3 = 'Monthly Sales'; // Replace with the title of desired sheet
+		const DATA_RANGE3 = 'B2:F25'; // Specify the custom range (e.g., A1:C12)
+
+		async function fetchData() {
+			try {
+				// Fetch the sheet data
+				const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID3}/values/${SHEET_TITLE3}!${DATA_RANGE3}?key=${API_KEY3}`);
+				const data = await response.json();
+
+				// Get the table body element
+				const tableBody = document.querySelector('.months-table tbody');
+				tableBody.innerHTML = ''; // Clear existing data
+
+				// Loop through the data and populate the table rows
+				data.values.forEach((row) => {
+					const [date, grossSales, netSales, budget, budgetDeficit] = row;
+					const rowHTML = `
+						<tr>
+							<td>${date}</td>
+							<td>${grossSales}</td>
+							<td>${budget}</td>
+							<td>${budgetDeficit}</td>
+						</tr>
+					`;
+					tableBody.innerHTML += rowHTML;
+				});
+			} catch (error) {
+				console.error('Error fetching data:', error);
+			}
+		}
+
+		window.addEventListener('load', fetchData);
+	</script>
+	
+	<script>
+		// Define your constants
+		const API_KEY4 = 'AIzaSyCvevlaa4L98o4x8RwL4TXzj0e6aUF48O0'; // Replace with Google Sheets API key
+		const SPREADSHEET_ID4 = '1GulE2Aimkq6tHOdfnCVd1k4Pawmin5pEV3jYWK-mz6I'; // Replace with Google Sheets spreadsheet ID
+		const SHEET_TITLE4 = 'Dashboard'; // Replace with the title of desired sheet
+		const DATA_RANGE4 = 'S9:W9'; // Specify the custom range (e.g., A1:C12)
+
+		async function fetchData() {
+			try {
+				// Fetch the sheet data
+				const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID4}/values/${SHEET_TITLE4}!${DATA_RANGE4}?key=${API_KEY4}`);
+				const data = await response.json();
+
+				// Get the table body element
+				const tableBody = document.querySelector('.customer-experience tbody');
+				tableBody.innerHTML = ''; // Clear existing data
+
+				// Loop through the data and populate the table rows
+				data.values.forEach((row) => {
+					const [Total, Completion ,Called , Whatsapp, Email] = row;
+					const rowHTML = `
+						<tr>
+							<td>${Total}</td>
+							<td>${Completion}</td>
+							<td>${Called}</td>
+							<td>${Whatsapp}</td>
+							<td>${Email}</td>
+						</tr>
+					`;
+					tableBody.innerHTML += rowHTML;
+				});
+			} catch (error) {
+				console.error('Error fetching data:', error);
+			}
+		}
+
+		window.addEventListener('load', fetchData);
+	</script>
+
+	<script>
+		// Define your constants
+		const API_KEY5 = 'AIzaSyCvevlaa4L98o4x8RwL4TXzj0e6aUF48O0'; // Replace with Google Sheets API key
+		const SPREADSHEET_ID5 = '1GulE2Aimkq6tHOdfnCVd1k4Pawmin5pEV3jYWK-mz6I'; // Replace with Google Sheets spreadsheet ID
+		const SHEET_TITLE5 = 'Dashboard'; // Replace with the title of your desired sheet
+		const DATA_RANGE5 = 'E17:F22'; // Specify the custom range (e.g., A1:C12)
+
+		async function fetchData() {
+			try {
+				// Fetch the sheet data
+				const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID5}/values/${SHEET_TITLE5}!${DATA_RANGE5}?key=${API_KEY5}`);
+				const data = await response.json();
+
+				// Get the table body element
+				const tableBody = document.querySelector('.top-month-table tbody');
+				tableBody.innerHTML = ''; // Clear existing data
+
+				// Loop through the data and populate the table rows
+				data.values.forEach((row) => {
+					const [item,count] = row;
+					const rowHTML = `
+						<tr>
+							<td>${item}</td>
+							<td>${count}</td>
+						</tr>
+					`;
+					tableBody.innerHTML += rowHTML;
+				});
+			} catch (error) {
+				console.error('Error fetching data:', error);
+			}
+		}
+
+		window.addEventListener('load', fetchData);
+	</script>
+
+</body>
+</html>
